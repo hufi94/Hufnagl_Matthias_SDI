@@ -180,4 +180,42 @@ var avergage = quiz1 + quiz2 +quiz3 /3
 console.log(avergage);
 
 
+//contcatanation -conbinding text strings
+// use the + plus sign - add and contcatanation
+
+var firstname = "Kermit";
+var lastname = "the frog";
+var fullname = firstname + " " +  lastname;
+
+console.log(fullname);
+
+
+//if you want the text stirng to be a number you have to cast it
+
+// Number(the text strings)
+
+
+var d = 6;
+var e ="7";
+var combind = d+Number (e);
+
+console.log(combind);
+
+// NAN : Not A Number
+
+//to round a number we use .toFIxed(#)
+
+var pi = 3.14;
+
+var num = 5.8476783940;
+
+// round to 3 decemal places
+var n = num.toFixed(2);
+
+console.log("The rounded numer to 2 decimal places is "+n);
+
+
+
+
+
 
