@@ -87,3 +87,97 @@ console.log(reminder);
 
  var evenorodd = 67%2;
 console.log(evenorodd);
+
+/*
+= Assigns the value to the variable
+++ Adds 1 to the current value of the variable
+
+-- Substaracts 1 from the current value of the variable
+
++= adds #to the current value of the variable
+
+-=substracts the # from the current value of the variable
+
+// /=devide the # of the current value of the variable
+
+*= mulitply the curent value by the number
+
+
+
+ */
+
+var assign = 0;
+
+//++ is the same as assign = assign+1;
+
+assign++;
+
+console.log(assign);
+
+
+// is the same as assign = assign-1;
+
+assign--;
+console.log(assign);
+
+// += ios the same as assign = assign = #
+
+assign +=5; //assign +5
+console.log(assign);
+
+//-= # is the same as assign = assign - #
+
+assign -=2;
+console.log(assign);
+
+// /= is the same as assign = assign/#
+assign /=3;
+console.log(assign);
+
+// *= is the same as assign = assign * #;
+
+assign *=7;
+console.log(assign);
+
+//stirngs - any text that we use
+//quots are need =ed to setiquish between variable and plain text
+var kermit = "light green";
+var frogName = kermit;
+console.log(frogName);
+
+// to double quote or not double\
+// can use and esape carracter \ backslash in fornt of the '
+
+var phrase = 'I don\'t know ';
+console.log(phrase);
+
+//escape carracter can aslo do multible lines \n - new line carracter
+
+var pharse2 = "I don't know. \n You never do!";
+console.log(pharse2);
+
+//boolean -kind of like a light switch
+//either true or false
+
+// Not a text string and must be lowercase
+
+var yes = true;
+
+var nope = false;
+
+//order of operation
+ //PEMDAS - please exuse my dear ant sally
+// parrantisis, Exponents, multiplication , devision, addision ,subtracton,
+
+//find the avagrage quiz grade
+
+var quiz1 = 87;
+var quiz2 = 100;
+var quiz3 = 90;
+
+//avergage - add them up and divide by the number of quizes
+var avergage = quiz1 + quiz2 +quiz3 /3
+console.log(avergage);
+
+
+
