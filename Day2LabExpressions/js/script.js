@@ -15,3 +15,4 @@ var slicesPerPerson = ordered * slices / people;
 console.log(slicesPerPerson);
 
 
+console.log("Each person ate "+slicesPerPerson+" slices of pizza at the party.")
