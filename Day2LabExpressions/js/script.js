@@ -9,5 +9,7 @@ alert("Day2LabExpressions.");
 
 var slices = 8;
 var people = 10;
-var ordered = 6;
+var ordered = 5;
+
+
 
