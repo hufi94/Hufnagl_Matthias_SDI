@@ -11,5 +11,7 @@ var slices = 8;
 var people = 10;
 var ordered = 5;
 
+var slicesPerPerson = ordered * slices / people;
+console.log(slicesPerPerson);
 
 
