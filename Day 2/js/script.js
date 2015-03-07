@@ -16,7 +16,7 @@ anything indside of here will not be seen by the computer
 
 // Alert box- pop up that will alert the user with information
 
-alert("Text that the user will see");
+//alert("Text that the user will see");
 
 //Console.log - shows info to the porgammer great for testing checking values and debugging
 //also shows all errors
