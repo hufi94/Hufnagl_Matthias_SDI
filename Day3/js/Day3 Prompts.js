@@ -13,7 +13,7 @@ var userInput = prompt("Enter Year of Birth");
 console.log(userInput);
 
 // calculate the area of a rectangle
-// langth times width
+// length times width
 
 // lets prompt the user  for the width and height
 
@@ -21,7 +21,7 @@ console.log(userInput);
 
 var height = prompt("Let's calculate the area of a rectangle! \nPlease  Enter the height of the rectangle:");
 
-var width = prompt("Please Enter the width of the rectangel:");
+var width = prompt("Please Enter the width of the rectangle:");
 
 //Calculate the ares of the rectangle
 
