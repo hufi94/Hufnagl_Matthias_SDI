@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="862e67d1-6ea9-4315-a828-2e1506753d98" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day3LabExpressions/day3LabExpressions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/day3LabExpressions/js/day3LabExpressions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day3/js/Day3 Prompts.js" afterPath="$PROJECT_DIR$/Day3/js/Day3 Prompts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="862e67d1-6ea9-4315-a828-2e1506753d98" name="Default" comment="" />
     <ignored path="Hufnagl_Matthias_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
