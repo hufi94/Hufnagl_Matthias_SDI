@@ -56,3 +56,5 @@ if(kidHeight > minHeight){
     console.log("Sorry you are to short");
 
 }
+
+//
