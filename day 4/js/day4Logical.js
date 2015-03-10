@@ -59,3 +59,4 @@ if(budget >= carPrice && payCheck > 1500){
 
     console.log("Pick a cheeper car car or find a better job")
 }
+
