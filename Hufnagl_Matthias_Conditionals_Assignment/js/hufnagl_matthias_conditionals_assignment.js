@@ -7,33 +7,18 @@
 //alert("test to see if it works");
 
 
-var USDToEUR = 0.90;
-var EURToUSD = 1.06;
-var eur = "eur";
-var usd ="usd";
-var askUsdToEur = prompt('What are you trying to convert, \nPlease enter "usd" for Dollars and "eur" for Euros. ');
+
+var askUsdOrEur = prompt('What are you trying to convert, \nPlease enter "usd" for Dollars and "eur" for Euros. ');
 
 
-if( askUsdToEur === eur || askUsdToEur === usd){
 
-    console.log(askUsdToEur);
+if(( askUsdOrEur === "eur") || (askUsdOrEur === "usd") || (askUsdOrEur === "EUR") || (askUsdOrEur === "USD")){
 
-}else {
+} else {
 
-    askUsdToEur= prompt('You have not entered the correct shortcut ,\n Please enter "usd" for Dollars and "eur" for Euros.');
-
+    askUsdOrEur = prompt('You have not entered the correct shortcut ,\n Please enter "usd" for Dollars and "eur" for Euros.');
 }
 
-var askToTypeNum = prompt("To Convert US Dollars into Euros or Euros to Dollars.\n Please Enter any number you wish to convert. ");
-
-var conversion = askToTypeNum * EURToUSD;
-var
-
-if(askToTypeNum * USDToEUR || askToTypeNum * EURToUSD){
-
-
-
-
-}
-
-
+if(askUsdOrEur ===  ){
+   console.log("right")
+   }
