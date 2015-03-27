@@ -56,3 +56,18 @@ var averageGrade = function(a){
 
 
 
+var average = averageGrade(totalGrades);
+
+average = average.toFixed(2);
+
+var passingGrade = 70;
+
+
+if(average >= passingGrade){
+
+    alert("You will pass the class with a " +average+".");
+}else{
+
+    alert("Sorry, you have failed the class with a "+average+".");
+
+}
