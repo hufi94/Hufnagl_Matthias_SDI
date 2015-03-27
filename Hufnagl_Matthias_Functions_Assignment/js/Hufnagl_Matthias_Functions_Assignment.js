@@ -1,40 +1,36 @@
 /* Matthias Hufnagl
- 3-7-15
+ 3-26-15
  section 00
  Day 8 Functions_Assignment
  */
 
-//alert("test to see if it werks");
+//alert("test to see if it works");
 
 
+var quiz = prompt("We want to see if you will pass the class \n Please enter your quiz grade to see if you\n passed the class. Please only enter numbers");
 
 
+while (quiz === ""|| isNaN(quiz)) {
+       quiz =prompt("Error, Please don't leave it blank\n and only enter numbers. Please Enter a Number")
 
-//var askForHomework = prompt("What did you get on your homework");
-//var askForAssignment= prompt("What did you get on your Assignment");
+    }
 
-function grade1( quiz, homework, assignment) {
 
-    var quiz = prompt("what did you get on your quiz.");
-    return quiz;
-}
+var homework = prompt("Please, Enter your homework grade to \nvalidate your average grade.\n Please only enter numbers");
 
-function grade2(quiz, homework, assignment) {
 
-    var homework = prompt("what is your homework grade")
+while (homework === ""|| isNaN(homework)) {
+    homework =prompt("Error, Please don't leave it blank\n and only enter numbers. Please Enter a Number")
 
-    return homework;
-}
-
-function grade3(quiz, homework, assignment) {
-
-    var assignment = prompt("what is your assignment grade")
-
-    return assignment;
 }
 
 
+var assignment = prompt("Please, Enter your grade number you have\nreceived on your assignment\nPlease only enter numbers");
 
 
+while (assignment === ""|| isNaN(assignment)) {
+    assignment =prompt("Error, Please don't leave it blank\n and only enter numbers. Please Enter a Number.")
+
+}
 
 
