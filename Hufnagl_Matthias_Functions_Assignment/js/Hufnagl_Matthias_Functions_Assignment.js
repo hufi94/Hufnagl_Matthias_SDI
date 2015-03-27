@@ -34,3 +34,25 @@ while (assignment === ""|| isNaN(assignment)) {
 }
 
 
+function grade( quiz, homework, assignment) {
+
+    var gradeCalc = quiz + homework + assignment
+
+    return gradeCalc;
+}
+
+var totalGrades = grade( parseInt(quiz), parseInt(homework), parseInt(assignment));
+
+
+
+
+var averageGrade = function(a){
+
+    var average = a / 3;
+
+    return average
+
+};
+
+
+
